@@ -10,7 +10,9 @@ This code is particularly helpful for understanding the real world applications 
 4. Don’t Repeat Yourself (DRY)
 5. Minimize upfront design (YAGNI)
 
-For further reading on refactoring buy Martin Fowler's excellent book, [Refactoring](https://refactoring.com/);
+It is also useful for learning how to puzzle apart messy code and how to use testing as an aid in refactoring.
+
+For further reading on refactoring buy Martin Fowler's excellent book, [Refactoring](https://refactoring.com/).
 
 ## How to run this workshop
 
