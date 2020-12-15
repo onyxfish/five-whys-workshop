@@ -1,5 +1,33 @@
-function sum (a, b) {
-  return a + b;
+function doubleCheck (h, r) {
+  if (r.length !== h.length) {
+    throw new Error('Wrong length!');
+  }
 }
 
-module.exports = sum;
+function makeTable (h = [], d = [], capitalize = false) {
+  const s = '|';
+  let t = '|';
+
+  for (const header in h) {
+    const h2 = capitalize ? h[header].charAt(0).toUpperCase() + h[header].slice(1) : h[header];
+
+    t += ' ' + h2 + ' ' + s;
+  }
+
+  for (let i = 0; i < d.length; i++) {
+    t += '\n' + s;
+
+    for (let j = 0; j < d[i].length; j++) {
+      // Write each cell
+      t += ' ' + d[i][j] + ' |';
+    }
+  }
+
+  for (const row in d) {
+    doubleCheck(h, d[row]);
+  }
+
+  return t;
+}
+
+module.exports = makeTable;
