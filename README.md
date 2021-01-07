@@ -19,7 +19,7 @@ For further reading on refactoring buy Martin Fowler's excellent book, [Refactor
 1. Setup with everyone on video chat or, if you are co-located, together in a room with a large screen.
 2. Go through [the slides](https://docs.google.com/presentation/d/15SAtKjdkXy5-WbWMJEmVB6tJTLT4Z1hz0kUg8wo8DZs/edit#slide=id.p8) and explain each concept.
 3. Put the code up on the screen and solicit suggestions for improvements. You can either...
-    * Have folks suggest improvements for you to make, or
+    * Have folks suggest improvements for you to make (["mob programming"](https://www.remotemobprogramming.org/#typist-and-the-rest-of-the-mob)), or
     * Pass the keyboard around the room
 4. The person making/suggesting the change must justify _why_ their change improves the code, either by referencing one of the five principles, or a more general principle of good programming. (e.g. readability)
 5. Ask the room: Does this change improve the code? If there is disagreement, discuss.
