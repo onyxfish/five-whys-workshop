@@ -8,6 +8,7 @@ test('Prints a simple table', () => {
     )
   ).toBe(
 `| first | second | third |
+| ----- | ------ | ----- |
 | 1 | 2 | 3 |
 | 4 | 5 | 6 |`
   );
@@ -22,6 +23,7 @@ test('Capitalize headers', () => {
     )
   ).toBe(
 `| First | Second | Third |
+| ----- | ------ | ----- |
 | 1 | 2 | 3 |
 | 4 | 5 | 6 |`
   );
